@@ -7,8 +7,7 @@
     "seed:dev": "nodemon ./db/seed.js",
     "seed": "node db/seed.js",
     "start": "node index.js",
-    "start:dev": "nodemon index.js",
-    "build": "node db/seed.js"
+    "start:dev": "nodemon index.js"
   },
 
   "keywords": [],
