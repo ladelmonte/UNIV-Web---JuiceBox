@@ -7,8 +7,10 @@
     "seed:dev": "nodemon ./db/seed.js",
     "seed": "node db/seed.js",
     "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "start:dev": "nodemon index.js",
+    "build": "node db/seed.js"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "morgan": "^1.10.0",
+    "node": "^20.2.0",
     "nodemon": "^2.0.22",
     "pg": "^8.10.0"
   }
